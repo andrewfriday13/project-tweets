@@ -17,7 +17,14 @@ export const getTweets = async ( page = 1) => {
     return response.data
   };
   
-
+export const updateTweets = async (id, newFollowersCount,isFollow) => {
+    const response = await axios.put(`${BASE_URL}${id}`, {
+    followers: newFollowersCount,
+    isFollowing: !isFollow 
+  });
+  return response
+}
+  
   export const getAllTweets = async () => {
     const abortConroller = new AbortController()
     const response = await axios.get(

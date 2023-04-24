@@ -2,6 +2,7 @@ import { getAllTweets, getTweets } from "GetTweets/GetTweets"
 import { Tweet } from "components/Tweet/Tweet"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom";
+import css from './Tweets-page.module.css'
 
 
 
@@ -32,12 +33,13 @@ console.log()
     <Link to='/'>
     <button>go home</button>
     </Link>
-      <ul>
-        {tweets.map(({id, user, isFollowing, followers, avatar}) => (
+      <ul className={css.listUser}>
+        {tweets.map(({id, twets, user, isFollowing, followers, avatar}) => (
           <Tweet
             id={id}
-            key={id}
             user={user}
+            key={id}
+            twets={twets}
             isFollowing={isFollowing}
             followers={followers}
             avatar={avatar}

@@ -1,0 +1,39 @@
+.tweet{
+    display: flex;
+
+    width: 380px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+}
+
+.ellips{
+    margin-top: 28px;
+    margin-bottom: 88px;
+}
+
+.avatar{
+    position: absolute;
+    top: 218px;
+    left: 50%;
+    width: 62px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.btnfollow{
+    margin-bottom: 36px;
+    width: 196px ;
+    height: 50px;
+}
