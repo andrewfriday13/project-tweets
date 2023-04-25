@@ -1,10 +1,36 @@
 
 .navigation {
-    background-color: azure;
+
+    /* background-color: rgba(89, 17, 214, 0.539);
+     */
+     background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 70px;
+    font-size: 20px;
 }
 a{
     text-decoration: none;
 
+}
+.navigationBtn{
+    color: black;
+}
+
+
+.navigationBtn{
+    height: 10px;
+    padding: 10px 20px;
+    background-color: #4277e9;
+    border-radius: 10px;
+    transition: background-color 250ms ease, color 250ms ease;
+
+}
+.navigationBtn:hover{
+    color: rgb(67, 201, 72);
+    background-color: #5e42e9;
 }

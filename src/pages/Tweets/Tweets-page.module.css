@@ -3,4 +3,26 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    /* width: 600px; */
+}
+
+
+.btn{
+    border: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #5827b19e;
+    border-radius: 10px;
+    transition: background-color 250ms ease, color 250ms ease;
+}
+.btn:hover{
+    color: aqua;
+    background-color:#5144eab8;
+}
+.stylePage{
+    gap: 15px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

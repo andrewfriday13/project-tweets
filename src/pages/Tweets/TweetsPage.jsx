@@ -29,9 +29,9 @@ export const TweetsPage = () => {
 
 console.log()
   return (
-    <>
+    <div className={css.stylePage}>
     <Link to='/'>
-    <button>go home</button>
+    <button className={css.btn} >Go Home</button>
     </Link>
       <ul className={css.listUser}>
         {tweets.map(({id, twets, user, isFollowing, followers, avatar}) => (
@@ -47,8 +47,11 @@ console.log()
         ))}
       </ul>
       
-        {!showBtn && <button onClick={showMore}>more</button>}
+        {!showBtn && 
+        <button 
+        className={css.btn}
+        onClick={showMore}>More</button>}
       
-    </>
+    </div>
   );
 };
