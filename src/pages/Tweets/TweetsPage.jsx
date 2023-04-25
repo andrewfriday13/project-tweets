@@ -6,7 +6,7 @@ import css from './Tweets-page.module.css'
 
 
 
-export const TweetsPage = () => {
+ const TweetsPage = () => {
   const [tweets, setTweets] = useState([]);
   const [page, setPage] = useState(1);
   const [allTweets, setAllTweets] = useState([])
@@ -55,3 +55,4 @@ console.log()
     </div>
   );
 };
+ export default TweetsPage
