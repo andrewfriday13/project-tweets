@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    /* width: 600px; */
 }
 
 
@@ -13,11 +12,15 @@
     padding: 10px 20px;
     background-color: #5827b19e;
     border-radius: 10px;
-    transition: background-color 250ms ease, color 250ms ease;
+    transition: all 0.2s ease-in-out;
+
 }
 .btn:hover{
     color: aqua;
     background-color:#5144eab8;
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    transform: scale(1.01)
+
 }
 .stylePage{
     gap: 15px;

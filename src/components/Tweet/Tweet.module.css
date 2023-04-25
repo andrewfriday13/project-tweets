@@ -64,19 +64,19 @@
     width: 196px ;
     height: 50px;
     background: #EBD8FF;
-    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     font-weight: 600;
-    transition: background-color 250ms ease, color 250ms ease;
+    transition: all 0.2s ease-in-out;
 }
 
 .btnFollow:hover{
     background: #f9f4ff;
-
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
     color: #bba0a0;
-
+    transform: scale(1.01)
 }
 .btnUnFollow{
+    transition: all 0.2s ease-in-out;
     background: #5CD3A8;
     border: none;
     font-weight: 600;
@@ -85,11 +85,12 @@
     height: 50px;
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    transition: background-color 250ms ease, color 250ms ease;
+
 
 }
 .btnUnFollow:hover{
     background: #48f6b6;
     color: #4f7de9;
-
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    transform: scale(1.01)
 }
