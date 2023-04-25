@@ -24,7 +24,7 @@
 }
 .stylePage{
     gap: 15px;
-    padding: 20px 0px;
+    padding: 20px 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
