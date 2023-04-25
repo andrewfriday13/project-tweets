@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 export const BASE_URL = 'https://64426be176540ce2258bb04c.mockapi.io/users/'
-// export const getTweets = axios.get(`${BASE_URL}?page=1&limit=20`)
+
 
 
 
