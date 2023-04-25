@@ -1,4 +1,4 @@
-# Project-Tweets
+# Project Tweets
 
 This project is a program that allows users to view Twitter profiles, including the number of followers and tweets, and follow or unfollow any user.
 
